@@ -4,8 +4,8 @@ import os, cv2
 # Setup
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="client_secrets.json"
 file_path = 'Temp.jpg'
-project_id = '47637558163'
-model_id = 'ICN8312907139823697920'
+project_id = ''
+model_id = ''
 
 def capture_pic():
     cam = cv2.VideoCapture(1)
